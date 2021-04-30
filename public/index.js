@@ -107,7 +107,7 @@ function createTask (taskName, running) {
 
     setInterval(function(){
             updateIndividualTaskTimer(timerTextNode, taskName);
-        }, 3000);
+        }, 1000);
 
     
 }
